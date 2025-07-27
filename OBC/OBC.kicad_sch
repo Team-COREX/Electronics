@@ -2833,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Charleslabs_Parts:BMP280_Module"
 			(at 212.09 105.41 0)
 			(effects
 				(font
