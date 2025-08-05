@@ -1428,7 +1428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.708 109.22 90)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 127 123.698 90)
 			(effects
 				(font
@@ -1858,7 +1858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.388 86.36 90)
 			(effects
 				(font
@@ -1927,7 +1927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.708 86.36 90)
 			(effects
 				(font
@@ -1996,7 +1996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.548 86.36 90)
 			(effects
 				(font
@@ -2133,7 +2133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 127 75.438 90)
 			(effects
 				(font
