@@ -1346,7 +1346,7 @@
 		)
 		(uuid "a63ea83b-c0e3-48e2-9eb9-51224e0f23ad")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 105.41 73.66 180)
 		(effects
