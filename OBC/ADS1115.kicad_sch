@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "1c92ac6f-6688-49fd-9c5b-eb63e61a8514")
 	(paper "A4")
+	(title_block
+		(title "Analog-Digital Converter")
+		(date "2025-08-06")
+		(rev "v1.0")
+		(company "Team Corex")
+		(comment 1 "Misión LAMBDA")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
