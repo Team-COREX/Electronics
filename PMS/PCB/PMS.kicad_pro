@@ -407,6 +407,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "90256e35-0905-407d-bd55-da0e13c0233e",
+      "Root"
+    ],
+    [
+      "344fe368-a07e-486b-984e-fca64f4efff4",
+      "Regulador 12 V"
+    ],
+    [
+      "f01187d9-d6c6-4078-a638-053e99db466d",
+      "Regulador 5 V"
+    ]
+  ],
   "text_variables": {}
 }
