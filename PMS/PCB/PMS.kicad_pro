@@ -419,6 +419,14 @@
     [
       "f01187d9-d6c6-4078-a638-053e99db466d",
       "Regulador 5 V"
+    ],
+    [
+      "136d19ac-886f-4bc3-9a6a-a54ce3317e84",
+      "Regulador 3.3V"
+    ],
+    [
+      "16faab69-634a-4175-8c5d-82d4afb1f4cd",
+      "ADC"
     ]
   ],
   "text_variables": {}
