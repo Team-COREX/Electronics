@@ -5,11 +5,12 @@
 	(uuid "1c92ac6f-6688-49fd-9c5b-eb63e61a8514")
 	(paper "A4")
 	(title_block
-		(title "Analog-Digital Converter")
+		(title "OBC - Conversor Analógico-Digital")
 		(date "2025-08-06")
 		(rev "v1.0")
-		(company "Team Corex")
+		(company "Team COREX")
 		(comment 1 "Misión LAMBDA")
+		(comment 2 "Proyecto CubeSat 2025 UTN")
 	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
@@ -674,107 +675,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 139.7 121.92)
@@ -987,16 +887,6 @@
 			(type default)
 		)
 		(uuid "46d157b0-66f1-434f-bebf-2987d5494dc6")
-	)
-	(wire
-		(pts
-			(xy 163.83 67.31) (xy 163.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484406ac-afa3-48ab-ab5c-3070d4cc5b78")
 	)
 	(wire
 		(pts
@@ -1270,16 +1160,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 121.92) (xy 163.83 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec8cd21c-6df0-456c-ad3b-b9b720d14f30")
-	)
-	(wire
-		(pts
 			(xy 173.99 99.06) (xy 177.8 99.06)
 		)
 		(stroke
@@ -1478,138 +1358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 163.83 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51e99c68-d7c8-4bc8-b08e-a973ae50ff65")
-		(property "Reference" "#FLG02"
-			(at 163.83 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 163.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d6b1d6f-35ad-4849-a62e-30c988d0825a")
-		)
-		(instances
-			(project "OBC"
-				(path "/1029d1d3-4fe2-46fb-aa7d-396827b97897/60d4d9a8-6d8b-476a-aba6-01999db970ea"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 163.83 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5777afef-88e0-4b1d-960e-273066581a3b")
-		(property "Reference" "#FLG01"
-			(at 163.83 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 163.83 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0527b3a-1943-404e-987b-3ff86e0efc85")
-		)
-		(instances
-			(project ""
-				(path "/1029d1d3-4fe2-46fb-aa7d-396827b97897/60d4d9a8-6d8b-476a-aba6-01999db970ea"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 127 121.92 90)
 		(unit 1)
@@ -1780,7 +1528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73c04ef1-ab22-4615-ad5c-a540be68177f")
-		(property "Reference" "C202"
+		(property "Reference" "C201"
 			(at 148.5836 76.2 90)
 			(effects
 				(font
@@ -1832,7 +1580,7 @@
 		(instances
 			(project "OBC"
 				(path "/1029d1d3-4fe2-46fb-aa7d-396827b97897/60d4d9a8-6d8b-476a-aba6-01999db970ea"
-					(reference "C202")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -2055,7 +1803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d56a56d9-382e-4d46-a449-a2e1bf3719e8")
-		(property "Reference" "C201"
+		(property "Reference" "C202"
 			(at 116.84 95.2562 0)
 			(effects
 				(font
@@ -2109,7 +1857,7 @@
 		(instances
 			(project "OBC"
 				(path "/1029d1d3-4fe2-46fb-aa7d-396827b97897/60d4d9a8-6d8b-476a-aba6-01999db970ea"
-					(reference "C201")
+					(reference "C202")
 					(unit 1)
 				)
 			)
