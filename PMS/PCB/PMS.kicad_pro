@@ -427,6 +427,18 @@
     [
       "16faab69-634a-4175-8c5d-82d4afb1f4cd",
       "ADC"
+    ],
+    [
+      "e23525af-d364-433c-8f47-f33435d87754",
+      "Llaves H"
+    ],
+    [
+      "3d14967d-f7ef-4e33-b6e1-cb9ba3153357",
+      "Acc. señales"
+    ],
+    [
+      "1ccd60be-de5f-417a-ba6f-50ae9ae2f8d8",
+      "Control Fuente"
     ]
   ],
   "text_variables": {}
