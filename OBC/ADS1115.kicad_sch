@@ -1528,7 +1528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73c04ef1-ab22-4615-ad5c-a540be68177f")
-		(property "Reference" "C201"
+		(property "Reference" "C202"
 			(at 148.5836 76.2 90)
 			(effects
 				(font
@@ -1580,7 +1580,7 @@
 		(instances
 			(project "OBC"
 				(path "/1029d1d3-4fe2-46fb-aa7d-396827b97897/60d4d9a8-6d8b-476a-aba6-01999db970ea"
-					(reference "C201")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -1803,7 +1803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d56a56d9-382e-4d46-a449-a2e1bf3719e8")
-		(property "Reference" "C202"
+		(property "Reference" "C201"
 			(at 116.84 95.2562 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "OBC"
 				(path "/1029d1d3-4fe2-46fb-aa7d-396827b97897/60d4d9a8-6d8b-476a-aba6-01999db970ea"
-					(reference "C202")
+					(reference "C201")
 					(unit 1)
 				)
 			)
